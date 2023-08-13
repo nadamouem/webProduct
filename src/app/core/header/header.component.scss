@@ -1,0 +1,32 @@
+
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.navbar
+{
+    overflow: hidden;
+    background-color:  rgb(235, 223, 230);
+    // position: fixed;
+    display: flex;
+    justify-content: center;
+    gap:0px;
+    width: 100%;
+
+}
+a
+{
+    color: black;
+    font-size: 32px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:  rgb(236, 172, 209);
+    width: 100%;
+}
+a:hover
+{
+    color: azure;
+}

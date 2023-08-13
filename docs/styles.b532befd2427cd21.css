@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}body{height:100%}.container>*:not(router-outlet){display:block;min-height:100%;width:clamp(100px,100%,1000px);margin:auto}

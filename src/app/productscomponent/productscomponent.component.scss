@@ -1,0 +1,25 @@
+
+.products
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 2px 2px rgb(239, 208, 226);
+}
+.item
+{
+    cursor: pointer;
+    width:33% ;
+    margin-top: 5px;
+    background-color: rgb(235, 223, 230);
+    border: 1px rgb(239, 233, 233) solid ;
+    border-radius: 30px;
+    text-align: center;
+}
+.item img
+{
+    
+    border-radius: 30px;
+    width: 100%;
+}

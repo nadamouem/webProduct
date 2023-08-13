@@ -1,0 +1,15 @@
+
+<div>
+    
+</div>
+<div class="products">
+   
+   <div class="item" *ngFor="let product of data" (click)="navigate(product.id)">
+   <img src="{{product.thumbnail}}" alt="cookie" width="300px" height="330px" >
+   <h2> {{product.title}}</h2>
+   <p>{{product.description}}</p>
+    </div>
+
+
+   
+</div>
